@@ -1,6 +1,6 @@
 {
-  "name": "rollup-ts",
-  "version": "0.0.0",
+  "name": "@wings-j/lyric-scroller",
+  "version": "1.0.1",
   "description": "",
   "author": "WingsJ",
   "type": "module",
@@ -13,9 +13,6 @@
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "release": "npm publish --access=public"
-  },
-  "bin": {
-    "command": "www.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.2",
