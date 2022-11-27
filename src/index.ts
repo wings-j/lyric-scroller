@@ -22,7 +22,7 @@ class LyricScroller {
    * @param highlight 当前句放大
    * @param highlightFactor 放大倍数
    */
-  constructor(audio: HTMLAudioElement, lyric: string, { width = '100%', height = '100%', padding = '20px 0', font = '' } = {}) {
+  constructor(audio: HTMLAudioElement, lyric: string, { width = '100%', height = '100%', padding = '20px 0', font = 'inherit' } = {}) {
     this.audio = audio
     this.lyric = new Lyric(lyric)
 
